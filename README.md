@@ -1,4 +1,3 @@
-readme_content = """
 # Maze Solving with Reinforcement Learning in Unity
 
 **Authors**: Giovanni Murgia, Pietro Cosseddu  
