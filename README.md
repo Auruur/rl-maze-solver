@@ -7,6 +7,12 @@
 
 This project applies reinforcement learning principles to train an agent to solve randomly generated mazes in a 3D Unity environment using the ML-Agents library and PyTorch. The goal was to analyze the performance of the agent as maze sizes increase and evaluate the limitations of reinforcement learning in this specific context.
 
+## Demo
+
+[![Watch the demo](https://img.youtube.com/vi/6bJnMIckruA/maxresdefault.jpg)](https://www.youtube.com/watch?v=6bJnMIckruA)
+
+Click the image above to watch a demo of the agent solving a randomly generated maze in Unity.
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
