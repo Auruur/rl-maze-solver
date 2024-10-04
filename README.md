@@ -9,7 +9,7 @@ This project applies reinforcement learning principles to train an agent to solv
 
 ## Demo
 
-https://github.com/user-attachments/assets/78f39a4d-bd6f-4061-9db0-db6ebf8d497a
+https://github.com/user-attachments/assets/2e1d1017-da63-4fa7-8407-6b21cd5e58fa
 
 ## Table of Contents
 
