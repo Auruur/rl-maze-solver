@@ -9,9 +9,7 @@ This project applies reinforcement learning principles to train an agent to solv
 
 ## Demo
 
-[![Watch the demo](https://img.youtube.com/vi/6bJnMIckruA/maxresdefault.jpg)](https://www.youtube.com/watch?v=6bJnMIckruA)
-
-Click the image above to watch a demo of the agent solving a randomly generated maze in Unity.
+https://github.com/user-attachments/assets/78f39a4d-bd6f-4061-9db0-db6ebf8d497a
 
 ## Table of Contents
 
