@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1660218303007395184
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1797450865409202408, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714090093169759035, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_RaysPerDirection
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714090093169759035, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_DetectableTags.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714090093169759035, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_DetectableTags.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383820800160, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_Name
+      value: Ambient
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383820800166, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383820800166, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383820800166, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383820800166, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383820800166, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383820800166, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383820800166, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383820800166, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383820800166, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383820800166, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383820800166, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383820800167, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: _mazeCellPrefab
+      value: 
+      objectReference: {fileID: 7024046050107421772}
+    - target: {fileID: 8986020383965585832, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: MaxStep
+      value: 100000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383965585833, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383965585833, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_InferenceDevice
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383965585833, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383965585833, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986020383965585835, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+      propertyPath: DecisionPeriod
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+--- !u!114 &7024046050107421772 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8534369032411347260, guid: 47ff83a2dc90d4671900ce6afcb112b2, type: 3}
+  m_PrefabInstance: {fileID: 1660218303007395184}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da4b67ae89a204cc89376d8f043d102a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
