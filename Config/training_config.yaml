@@ -1,0 +1,25 @@
+#parametri che interagiranno con il codice python per il training
+behaviors: 
+  MoveAgent: #nome del behavior 
+    trainer_type: ppo #policy gradient
+    hyperparameters:
+      batch_size: 128 
+      buffer_size: 2048
+      learning_rate: 0.0003
+      beta: 0.005 #gestione della scelta random delle azioni
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+      learning_rate_schedule: linear #viene modificato il learning rate nel tempo
+    network_settings: #parametri della rete utilizzata
+      normalize: false
+      hidden_units: 256
+      num_layers: 2
+    reward_signals:
+      extrinsic:
+        gamma: 0.99 #peso dei reward
+        strength: 1.0 #fattore moltiplicativo del reward
+    max_steps: 1000000 #dopo che raggiungiamo 100k step dobbiamo interrompere il training
+    time_horizon: 1024
+    summary_freq: 10000 #frequenza a cui riceve le osservazioni ed esegue il controllo
+    checkpoint_interval: 20000 #ogni quanto salvare una copia dei pesi 
